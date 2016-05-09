@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FullPage</title>
+    <link rel="stylesheet" type="text/css" href="jquery.fullpage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+    <!--CSS by myself-->
+    <link rel="stylesheet" type="text/css" href="myself.css" />
+    <!--JS by myself-->
+    <script type="text/javascript" src="myself.js"></script>
+</head>
+
+<body>
+
+    <div id="banner">
+        <ul id="myMenu">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">服務項目</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">產品介紹</a></li>
+            <li data-menuanchor="thirdPage"><a href="#thirdPage">聯絡我們</a></li>
+        </ul>
+    </div>
+
+
+    <div id="fullpage">
+        <div class="section">Some section
+
+        </div>
+        <div class="section">
+            <img class="invisible" src="/DIP.JPG" />
+        </div>
+        <div class="section">Whole viewport
+
+        </div>
+
+        <div class="section fp-auto-height">Auto height</div>
+        <div class="section">
+            <div class="slide product_information" data-anchor="slide"> Slide 1 </div>
+            <div class="slide" data-anchor="slide2"> Slide 2 </div>
+            <div class="slide" data-anchor="slide3"> Slide 3 </div>
+            <div class="slide" data-anchor="slide4"> Slide 4 </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
